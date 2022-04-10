@@ -12,7 +12,7 @@ public class Praca {
 
   @Id
   @GeneratedValue
-  private long id;
+  private Long id;
   private String nazwaFirmy;
 
   private String pracaOd;
@@ -25,11 +25,11 @@ public class Praca {
   @UpdateTimestamp
   private Instant updatedAt;
 
-  public long getId() {
+  public Long getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Long id) {
     this.id = id;
   }
 

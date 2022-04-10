@@ -1,4 +1,7 @@
 spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
   datasource:
     username: grlukasa
     password: 88y57U9011$
@@ -13,6 +16,3 @@ spring:
 #    locations: classpath:db/migrations
 #    schemas: [wreczyck]
     enabled: false
-  jpa:
-    hibernate:
-      ddl-auto: create-drop
